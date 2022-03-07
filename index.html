@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" disabled class="screen">
+
+        <table>
+            <tr>
+                <td><input type="button" value="AC" class="btn" onclick="clr()"></td>
+                <td><input type="button" value="DEL" class="btn" onclick="del()"></td>
+                <td><input type="button" value="*" class="btn" onclick="capture('*')"></td>
+                <td><input type="button" value="/" class="btn" onclick="capture('/')"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="7" class="btn" onclick="capture(7)"></td>
+                <td><input type="button" value="8" class="btn" onclick="capture(8)"></td>
+                <td><input type="button" value="9" class="btn" onclick="capture(9)"></td>
+                <td><input type="button" value="+" class="btn" onclick="capture('+')"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="4" class="btn" onclick="capture(4)"></td>
+                <td><input type="button" value="5" class="btn" onclick="capture(5)"></td>
+                <td><input type="button" value="6" class="btn" onclick="capture(6)"></td>
+                <td><input type="button" value="-" class="btn" onclick="capture('-')"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="1" class="btn" onclick="capture(1)"></td>
+                <td><input type="button" value="2" class="btn" onclick="capture(2)"></td>
+                <td><input type="button" value="3" class="btn" onclick="capture(3)"></td>
+                <td><input type="button" value="=" class="btn" onclick="eql()"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="0" class="btn" onclick="capture(0)"></td>
+                <td><input type="button" value="." class="btn" onclick="capture('.')"></td>
+                <td><input type="button" value="^2" class="btn" onclick="pw2()"></td>
+                <td><input type="button" value="sqrt" class="btn" onclick="sqrt()"></td>
+            </tr>
+            
+        </table>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>

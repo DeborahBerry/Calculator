@@ -17,7 +17,7 @@ This was built as a practice project to improve JavaScript logic, layout skills,
 
 - HTML
 - CSS
-- JavaScript (No frameworks!)
+- JavaScript (Vanilla ES6) - (No frameworks!)
 
 ## 💬 Why This Project?
 
